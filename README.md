@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
 
-#Download the Dependencies
+# Download the Dependencies
 
 Run the 'npm install' before calling the ng serve after forking this application
 
