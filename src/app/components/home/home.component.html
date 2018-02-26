@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="card card-body col-4 mb-1 pr-5" *ngFor="let bookDetail of booksDetails">
+        <h4 class="card-title">{{bookDetail.name}}</h4>
+        <div class="card-text ">
+            <p>Author is : {{bookDetail.author}}</p>
+            <p> Category :
+              <span *ngFor="let cat of bookDetail.cat " class="mr-1">{{cat}}</span>
+            </p>
+          </div>
+        <div class="flex-row">
+            <span><b>Price: {{bookDetail.price}}</b></span>
+            <button class="btn btn-default">Add to Cart</button>
+        </div>
+    </div>
+</div>
