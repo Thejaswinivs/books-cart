@@ -1,5 +1,6 @@
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
@@ -16,6 +17,8 @@ import { ViewcartComponent } from './components/viewcart/viewcart.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { LoginComponent } from './components/login/login.component';
 import { SigninComponent } from './components/signin/signin.component';
+import { SearchComponent } from './components/search/search.component';
+import { SearchPipe } from './DAL/search.pipe';
 
 
 @NgModule({
@@ -26,10 +29,13 @@ import { SigninComponent } from './components/signin/signin.component';
     ViewcartComponent,
     ProfileComponent,
     LoginComponent,
-    SigninComponent
+    SigninComponent,
+    SearchComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     MDBBootstrapModule.forRoot(),
     HttpClientModule,
     HttpModule,

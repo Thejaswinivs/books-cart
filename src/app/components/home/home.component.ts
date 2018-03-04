@@ -14,22 +14,28 @@ import { CommonService } from '../../DAL/common.service';
 })
 export class HomeComponent implements OnInit {
 
-  private booksDetails: Observable<BooksCartModel.BooksDetails[]>;
+  private booksDetails: BooksCartModel.BooksDetails[] = new Array<BooksCartModel.BooksDetails>();
+  private searchArg: string = '';
+
   constructor(private _remoteCallService: RemotecallService, private _commonService: CommonService) { }
 
   ngOnInit() {
     this.getBooksDetails();
+    this.searchSubjectEvent();
+  }
+
+  searchSubjectEvent() {
+    this._commonService.searchSubject.subscribe((str: string) => {
+      this.searchArg = str;
+    })
   }
 
   getBooksDetails() {
     let url = 'http://localhost:3000/books';
-
-    console.log("inital BooksDetails... ", this.booksDetails);
-
-    this.booksDetails = this._remoteCallService.executeHttpClientGET(url);
-
-    console.log("After Booksdetails...", this.booksDetails);
-
+    
+    this._remoteCallService.executeHttpClientGET(url).subscribe((response: BooksCartModel.BooksDetails[])=> {
+      this.booksDetails = response;
+    })
   }
 
   addTocart(book: BooksCartModel.BooksDetails) {

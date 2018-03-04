@@ -1,0 +1,4 @@
+<form class="form-inline  waves-light" mdbRippleRadius>
+  <i class="fa fa-search search-icon prefix"></i>
+  <input class="form-control mr-sm-2 search-input" type="text" placeholder="Search items here..." [(ngModel)]="searchInput"  name="search" (input)="onSearchChange($event.target.value)">
+</form>

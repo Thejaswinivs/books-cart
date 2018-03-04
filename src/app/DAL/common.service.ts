@@ -9,7 +9,7 @@ export class CommonService {
   constructor() { }
 
   public addedCartToListSubject: Subject<BooksCartModel.BooksDetails> = new Subject<BooksCartModel.BooksDetails>();
-
+  public searchSubject: Subject<string> = new Subject<string>();
   public addedCartList: BooksCartModel.BooksDetails[] = new Array<BooksCartModel.BooksDetails>();
 
   set setAddedCartList(book: BooksCartModel.BooksDetails) {

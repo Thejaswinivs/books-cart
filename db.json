@@ -142,5 +142,17 @@
     ],
     "pendingBooks": [
 
+    ],
+    "authDetails": [
+        {
+            "name": "Buchibabu",
+            "email": "abcd@gmail.com",
+            "password": "1234"
+        },
+        {
+            "name": "Gopi J",
+            "email": "abcd@gmail.com",
+            "password": "1234"
+        }
     ]
 }
