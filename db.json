@@ -1,0 +1,146 @@
+{
+    "books": [
+        {
+            "id": "1",
+            "name": "Nodejs for beginners",
+            "author": "Gopi J",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "2",
+            "name": "Angular5 Tutorials",
+            "author": "Buchibabu",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "3",
+            "name": "Angular Training",
+            "author": "Nagendra gandla",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "4",
+            "name": "Java Fundamentals",
+            "author": "Rick Riordan",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "5",
+            "name": "Javascript Fundamentals",
+            "author": "Rick Riordan",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "6",
+            "name": "HTML Elements",
+            "author": "Steve",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "7",
+            "name": "CSS3 properties",
+            "author": "Rick Riordan",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "8",
+            "name": "Data structures",
+            "author": "Rick Riordan",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "9",
+            "name": "C++ Language",
+            "author": "Rick Riordan",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "10",
+            "name": "Python",
+            "author": "Rick Riordan",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "11",
+            "name": "ReactJS",
+            "author": "Rick Riordan",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "12",
+            "name": "EmberJS",
+            "author": "jocob",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "13",
+            "name": "Vuejs",
+            "author": "Rick Riordan",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "14",
+            "name": "The Lightning Thief",
+            "author": "Rick Riordan",
+            "inStock": true,
+            "price": 12.50,
+            "pages_i": 384
+        },
+        {
+            "id": "15",
+            "name": "The Sea of Monsters",
+            "author": "Rick Riordan",
+            "series_t": "Percy Jackson and the Olympians",
+            "sequence_i": 2,
+            "genre_s": "fantasy",
+            "inStock": true,
+            "price": 6.49,
+            "pages_i": 304
+        },
+        {
+            "id": "16",
+            "name": "Sophie's World : The Greek Philosophers",
+            "author": "Jostein Gaarder",
+            "inStock": true,
+            "price": 3.07,
+            "pages_i": 64
+        },
+        {
+            "id": "17",
+            "name": "Lucene in Action, Second Edition",
+            "author": "Michael McCandless",
+            "inStock": true,
+            "price": 30.50,
+            "pages_i": 475
+        }
+    ],
+    "pendingBooks": [
+
+    ]
+}

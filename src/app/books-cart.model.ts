@@ -5,10 +5,6 @@ export module BooksCartModel {
         name: string;
         price: string;
         inStock: boolean;
-        cat?: Array<string>;
-        series_t?: string;
-        sequence_i?: number;
-        genre_s?: string;
         pages_i?: number;
     }
 }

@@ -5,7 +5,7 @@
     <links>
         <ul class="navbar-nav nav-flex-icons waves-light ml-auto">
             <li class="nav-item waves-light" mdbRippleRadius (click)="gotoShoppingcart()">
-                <a class="nav-link"><i class="fa fa-shopping-cart fa-lg"></i></a>
+                <a class="nav-link"><i class="fa fa-shopping-cart fa-lg shopping-cart"><span class="badge orange">{{cartCount}}</span></i></a>
             </li>
             <li class="nav-item waves-light" mdbRippleRadius (click)="gotoProfile()">
                 <a class="nav-link"><i class="fa fa-user-circle fa-lg"></i></a>
@@ -26,4 +26,5 @@
         </div>
     </div>
 </main>
+
 <!-- /.Main -->
